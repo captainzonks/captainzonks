@@ -1,4 +1,4 @@
-<h2 align="left">Hellooo, I'm a Rust enthusiast who is earning a psych degree!</h2>
+<h2 align="left">Hellooo, I'm a Linux and Rust nerd dabbling in home server development.</h2>
 
 ###
 
