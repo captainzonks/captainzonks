@@ -2,6 +2,48 @@
 
 ###
 
+## Spoke — Modular Self-Hosted Server Platform
+
+[**Spoke**](https://github.com/captainzonks/spoke) is an open-source hub-and-spoke platform for running a modular home server with Docker Compose. The hub provides core infrastructure (reverse proxy, auth, security engine, database), and modules plug in as independent repos.
+
+<details>
+<summary><b>Architecture</b></summary>
+
+```
+Hub (core infrastructure)
+├── Traefik         — Reverse proxy with automatic TLS
+├── Authentik       — SSO and forward auth
+├── CrowdSec        — AppSec WAF and IP reputation
+├── PostgreSQL      — Shared database
+├── Redis           — Cache and session store
+└── Socket Proxy    — Restricted Docker API access
+
+Modules (plug-and-play service groups)
+├── Each module = independent Git repo
+├── 3-layer env merge (base → module defaults → site overrides)
+├── Automatic Traefik rule deployment
+└── Makefile orchestrates everything
+```
+</details>
+
+### Modules
+
+| Module | Description |
+|--------|-------------|
+| [spoke-monitoring](https://github.com/captainzonks/spoke-monitoring) | Grafana, Prometheus, Loki, Telegraf, Dozzle |
+| [spoke-plex](https://github.com/captainzonks/spoke-plex) | Plex media server with Tautulli monitoring |
+| [spoke-immich](https://github.com/captainzonks/spoke-immich) | Self-hosted photo and video management |
+| [spoke-music](https://github.com/captainzonks/spoke-music) | Navidrome and Lidarr music streaming |
+| [spoke-books](https://github.com/captainzonks/spoke-books) | Calibre-Web, Readarr, Audiobookshelf |
+| [spoke-database](https://github.com/captainzonks/spoke-database) | MinIO, MongoDB, and time series databases |
+| [spoke-homepage](https://github.com/captainzonks/spoke-homepage) | Homepage dashboard |
+| [spoke-torrenting](https://github.com/captainzonks/spoke-torrenting) | VPN-protected torrenting and direct download |
+| [spoke-foundryvtt](https://github.com/captainzonks/spoke-foundryvtt) | FoundryVTT virtual tabletop |
+| [spoke-protonmail](https://github.com/captainzonks/spoke-protonmail) | Proton Mail Bridge SMTP/IMAP service |
+| [spoke-portfolio](https://github.com/captainzonks/spoke-portfolio) | Art portfolio site (Hugo + Cloudflare Pages) |
+
+###
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=captainzonks&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=onedark&hide_border=false" height="150" alt="languages graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=captainzonks&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=onedark&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -15,6 +57,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
 </div>
 
 ###
