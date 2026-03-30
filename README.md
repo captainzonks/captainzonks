@@ -16,6 +16,7 @@ Hub (core infrastructure)
 ├── CrowdSec        — AppSec WAF and IP reputation
 ├── PostgreSQL      — Shared database
 ├── Redis           — Cache and session store
+├── Sablier         — On-demand container scaling
 └── Socket Proxy    — Restricted Docker API access
 
 Modules (plug-and-play service groups)
@@ -30,16 +31,17 @@ Modules (plug-and-play service groups)
 
 | Module | Description |
 |--------|-------------|
-| [spoke-monitoring](https://github.com/captainzonks/spoke-monitoring) | Grafana, Prometheus, Loki, Telegraf, Dozzle |
+| [spoke-monitoring](https://github.com/captainzonks/spoke-monitoring) | Grafana, Prometheus, Loki, Alloy, Telegraf, Dozzle, NUT |
 | [spoke-plex](https://github.com/captainzonks/spoke-plex) | Plex media server with Tautulli monitoring |
 | [spoke-immich](https://github.com/captainzonks/spoke-immich) | Self-hosted photo and video management |
-| [spoke-music](https://github.com/captainzonks/spoke-music) | Navidrome and Lidarr music streaming |
-| [spoke-books](https://github.com/captainzonks/spoke-books) | Calibre-Web, Readarr, Audiobookshelf |
-| [spoke-database](https://github.com/captainzonks/spoke-database) | MinIO, MongoDB, and time series databases |
+| [spoke-music](https://github.com/captainzonks/spoke-music) | Navidrome music streaming, Picard tagging |
+| [spoke-books](https://github.com/captainzonks/spoke-books) | Calibre, Audiobookshelf, GraphicAudio scraper |
+| [spoke-database](https://github.com/captainzonks/spoke-database) | MinIO, InfluxDB3, CouchDB, Victoria Metrics |
 | [spoke-homepage](https://github.com/captainzonks/spoke-homepage) | Homepage dashboard |
-| [spoke-torrenting](https://github.com/captainzonks/spoke-torrenting) | VPN-protected torrenting and direct download |
+| [spoke-torrenting](https://github.com/captainzonks/spoke-torrenting) | VPN-tunneled qBittorrent and Soulseek |
 | [spoke-foundryvtt](https://github.com/captainzonks/spoke-foundryvtt) | FoundryVTT virtual tabletop |
 | [spoke-protonmail](https://github.com/captainzonks/spoke-protonmail) | Proton Mail Bridge SMTP/IMAP service |
+| [GeneGnome](https://github.com/captainzonks/GeneGnome) | Genetics analysis platform (Rust/Axum API, worker, frontend) |
 
 ###
 
