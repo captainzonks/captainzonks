@@ -45,13 +45,6 @@ Modules (plug-and-play service groups)
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=captainzonks&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=onedark&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=captainzonks&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=onedark&locale=en&hide_border=false" height="150" alt="stats graph"  />
-</div>
-
-###
-
 <div align="left">
   <img src="https://skillicons.dev/icons?i=rust" height="30" alt="rust logo"  />
   <img width="12" />
