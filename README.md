@@ -41,6 +41,7 @@ Modules (plug-and-play service groups)
 | [spoke-torrenting](https://github.com/captainzonks/spoke-torrenting) | VPN-tunneled qBittorrent and Soulseek |
 | [spoke-foundryvtt](https://github.com/captainzonks/spoke-foundryvtt) | FoundryVTT virtual tabletop |
 | [spoke-protonmail](https://github.com/captainzonks/spoke-protonmail) | Proton Mail Bridge SMTP/IMAP service |
+| [spoke-mail-relay](https://github.com/captainzonks/spoke-mail-relay) | HTTP-to-SMTP mail relay for automated notifications |
 | [GeneGnome](https://github.com/captainzonks/GeneGnome) | Genetics analysis platform (Rust/Axum API, worker, frontend) |
 
 ###
