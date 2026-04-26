@@ -33,6 +33,7 @@ Modules (plug-and-play service groups)
 |--------|-------------|
 | [spoke-monitoring](https://github.com/captainzonks/spoke-monitoring) | Grafana, Prometheus, Loki, Alloy, Telegraf, Dozzle, NUT |
 | [spoke-plex](https://github.com/captainzonks/spoke-plex) | Plex media server with Tautulli monitoring |
+| [spoke-piped](https://github.com/captainzonks/spoke-piped) | Piped backend, frontend, ytproxy + module-local Postgres — YouTube alt for LibreTube et al. |
 | [spoke-immich](https://github.com/captainzonks/spoke-immich) | Self-hosted photo and video management |
 | [spoke-music](https://github.com/captainzonks/spoke-music) | Navidrome music streaming, Picard tagging |
 | [spoke-books](https://github.com/captainzonks/spoke-books) | Calibre, Audiobookshelf, GraphicAudio scraper |
